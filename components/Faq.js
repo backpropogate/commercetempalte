@@ -11,8 +11,9 @@ const Faq = () => {
         <summary className="flex justify-between items-center bg-white p-2.5 cursor-pointer text-[#1f1f21]">
             How long does shipping take?
             <span>▼</span>
+            
         </summary>
-        <p className="p-2.5">Shipping usually takes 5-7 business days, but can vary depending on your location and the availability of the product.</p>
+        <p className="p-2.5">Shipping usually takes 2-7 business days, but can vary depending on your location and the availability of the product.</p>
     </details>
 
     <details className="mb-2.5">

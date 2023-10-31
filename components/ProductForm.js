@@ -92,7 +92,7 @@ const ProductForm = ({product}) => {
     <div>
         <p className='flex items-center gap-2 text-[#29bd47]sm md:text-[#29bd47]base'><AiFillCheckCircle className='text-[#29bd47]' />Unique, one-of-a-kind gift</p>
         <p className='flex items-center gap-2 text-[#29bd47]sm md:text-[#29bd47]base'><AiFillCheckCircle className='text-[#29bd47]' />NOT SOLD in stores</p>
-        <p className='flex items-center gap-2 text-[#29bd47]sm md:text-[#29bd47]base'><AiFillCheckCircle className='text-[#29bd47]' /> 2-8 Business Days</p>
+        <p className='flex items-center gap-2 text-[#29bd47]sm md:text-[#29bd47]base'><AiFillCheckCircle className='text-[#29bd47]' /> 2-7 Business Days</p>
     </div>
     
 </div>
@@ -111,7 +111,7 @@ const ProductForm = ({product}) => {
                 addToCart(selectedVariant)
 
             }} 
-            className="mt-2 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b]"> Get Mine Now  👉</button>
+            className=" inline-block mt-2 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b] hover:border-black hover:border-b-4"> Get Mine Now  👉</button>
             <div className='mt-2 mb-3 flex justify-center '>
                         <img className=' w-36' src="/trust.jpg" alt="" />
                     </div>

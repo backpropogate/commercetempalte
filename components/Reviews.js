@@ -49,7 +49,7 @@ const Reviews = () => {
                     < FaStar className={styles.amzStar}/>
                     <FaStarHalf className={styles.amzStar}/>                    
                     
-            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className='convert-green italic font-extrabold'>✓</p></div>
+            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className={`${styles.convertGreen} font-extrabold italic`}>✓</p></div>
             <div>
             The lady loved it.. shipping was crazy fast. Thanks
             </div>
@@ -64,7 +64,7 @@ const Reviews = () => {
                     < FaStar className={styles.amzStar}/>
                     <FaStar className={styles.amzStar}/>                    
                     
-            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className='convert-green italic font-extrabold'>✓</p></div>
+            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className={`${styles.convertGreen} font-extrabold italic`}>✓</p></div>
             <div>
             she cried while reading the card            
             </div>
@@ -79,7 +79,7 @@ const Reviews = () => {
                     < FaStar className={styles.amzStar}/>
                     <FaStarHalf className={styles.amzStar}/>                    
                     
-            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className='convert-green italic font-extrabold'>✓</p></div>
+            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className={`${styles.convertGreen} font-extrabold italic`}>✓</p></div>
             <div>
             When I order this I had no idea how nice it would be. it put tears in her eyes and I was rewarded with lots of kisses!
             </div>
@@ -93,7 +93,7 @@ const Reviews = () => {
                     < FaStar className={styles.amzStar}/>
                     < FaStar className={styles.amzStar}/>
                     
-            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className='convert-green italic font-extrabold'>✓</p></div>
+            </a>              <p className={`${styles.convertGreen} font-semibold italic`}>Verified </p><p className={`${styles.convertGreen} font-extrabold italic`}>✓</p></div>
             <div>
             My wife loves it
             </div>
