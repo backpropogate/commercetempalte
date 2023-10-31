@@ -4,7 +4,7 @@ const OurStory = () => {
   return (
     <div>
         <div className="text-center my-12 py-5 bg-gray-100 rounded-lg">
-    <h2 className="text-xl text-gray-800 mb-4">Our Story</h2>
+    <h2 className="text-2xl text-gray-800 mb-4 font-bold">Our Story</h2>
     <p className="text-lg text-gray-500 mx-auto mb-6 w-full md:max-w-xl">Every product has a story. Ours is crafted with love, dedication, and a touch of home.</p>
 
     {/* First Image - Product being packed */}

@@ -56,9 +56,10 @@ const ProductForm = ({product}) => {
     return (
         <div className="rounded-2xl p-4 shadow-md flex flex-col w-full md:w-1/3">
             <div className='flex gap-3 mb-3 cursor-pointer hover:opacity-60'>
-                    <img className=" h-6" src="/stars 1.png" alt="" />
+                    <a href="#review"><img className=" h-6" src="/stars 1.png" alt="" />
                     
                     <p className=" font-bold">Rated 4.5 </p>
+                    </a>
                 </div>
                 <div className="flex my-2">
                 <span className="new-arrival-badge bg-yellow-300 text-[#29bd47]gray-900 px-2.5 py-1 rounded-md text-[#29bd47]sm font-bold inline-block mb-2.5 max-w-max">New Arrival</span>
@@ -93,7 +94,7 @@ const ProductForm = ({product}) => {
                 addToCart(selectedVariant)
 
             }} 
-            className="mt-3 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold"> Get Mine Now  👉</button>
+            className="mt-3 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b]"> Get Mine Now  👉</button>
             <div className='mt-6 flex gap-6'>
                         <img className=' w-36' src="/trust.jpg" alt="" />
                         <img className='w-36' src="/safecheck.jpg" alt="" />

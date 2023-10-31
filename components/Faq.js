@@ -3,12 +3,12 @@ import React from 'react'
 const Faq = () => {
   return (
     
-    <div className="bg-[#1f1f21] p-5 text-[#e2fb02] font-sans">
+    <div className="bg-[#1f1f21] p-5 text-white font-sans">
 
-    <h2 className="text-center">Frequently Asked Questions</h2>
+    <h2 className="text-center font-bold mb-5 text-2xl">Frequently Asked Questions</h2>
 
     <details className="mb-2.5">
-        <summary className="flex justify-between items-center bg-[#e2fb02] p-2.5 cursor-pointer text-[#1f1f21]">
+        <summary className="flex justify-between items-center bg-white p-2.5 cursor-pointer text-[#1f1f21]">
             How long does shipping take?
             <span>▼</span>
         </summary>
@@ -16,7 +16,7 @@ const Faq = () => {
     </details>
 
     <details className="mb-2.5">
-        <summary className="flex justify-between items-center bg-[#e2fb02] p-2.5 cursor-pointer text-[#1f1f21]">
+        <summary className="flex justify-between items-center bg-white p-2.5 cursor-pointer text-[#1f1f21]">
             What is your return policy?
             <span>▼</span>
         </summary>
@@ -24,7 +24,7 @@ const Faq = () => {
     </details>
 
     <details className="mb-2.5">
-        <summary className="flex justify-between items-center bg-[#e2fb02] p-2.5 cursor-pointer text-[#1f1f21]">
+        <summary className="flex justify-between items-center bg-white p-2.5 cursor-pointer text-[#1f1f21]">
             How can I track my order?
             <span>▼</span>
         </summary>
@@ -32,7 +32,7 @@ const Faq = () => {
     </details>
 
     <details className="mb-2.5">
-        <summary className="flex justify-between items-center bg-[#e2fb02] p-2.5 cursor-pointer text-[#1f1f21]">
+        <summary className="flex justify-between items-center bg-white p-2.5 cursor-pointer text-[#1f1f21]">
             Do you ship internationally?
             <span>▼</span>
         </summary>
@@ -40,7 +40,7 @@ const Faq = () => {
     </details>
 
     <details className="mb-2.5">
-        <summary className="flex justify-between items-center bg-[#e2fb02] p-2.5 cursor-pointer text-[#1f1f21]">
+        <summary className="flex justify-between items-center bg-white p-2.5 cursor-pointer text-[#1f1f21]">
             Can I change or cancel my order?
             <span>▼</span>
         </summary>

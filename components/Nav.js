@@ -2,6 +2,11 @@ import Link from 'next/link'
 import { useContext } from 'react'
 import { cartContext } from '../context/shopContext'
 import MiniCart from './miniCard'
+import React, { useState } from 'react';
+import Marquee from "react-fast-marquee";
+import { FaStarHalf, FaStar } from 'react-icons/fa';
+
+
 
 
 
@@ -9,6 +14,7 @@ import Image from 'next/dist/client/image'
 
 export default function Nav() {
     const {cart, cartOpen, setCartOpen} = useContext(cartContext)
+    const [isOpen, setIsOpen] = useState(false);
     
     let cartQuantity = 0
     cart.map(item => {
@@ -45,7 +51,14 @@ export default function Nav() {
       <path d="M180.098 15.9515C174.449 15.9515 169.409 18.006 165.725 21.6304C165.522 21.8306 165.191 21.6831 165.191 21.4092V17.0473C165.191 16.6996 164.914 16.4256 164.561 16.4256H153.68C153.328 16.4256 153.05 16.6996 153.05 17.0473V79.3784C153.05 79.7261 153.328 80 153.68 80H164.849C165.202 80 165.48 79.7261 165.48 79.3784V58.9385C165.48 58.6645 165.811 58.5276 166.013 58.7067C169.687 62.0782 174.545 64.0485 180.109 64.0485C193.211 64.0485 203.43 53.5862 203.43 39.9947C203.43 26.4032 193.2 15.941 180.109 15.941L180.098 15.9515ZM177.995 53.4914C170.541 53.4914 164.892 47.6439 164.892 39.9104C164.892 32.177 170.53 26.3295 177.995 26.3295C185.459 26.3295 191.086 32.0822 191.086 39.9104C191.086 47.7387 185.533 53.4914 177.984 53.4914H177.995Z" fill="rgb(255, 255, 255)"></path>
     </svg>
 </div>
-
+<Marquee gradient="false" gradientColor='[0,0,0]' className='overflow-hidden text-xs text-white p-3 bg-black' play= 'false'>
+      < FaStar className='amz-star'/>
+      < FaStar className='amz-star'/>
+      < FaStar className='amz-star'/>
+      < FaStar className='amz-star'/>
+      <FaStarHalf className='amz-star'/>
+   <p>Amazing customer service!</p>
+</Marquee>
         </header>
     )
 }

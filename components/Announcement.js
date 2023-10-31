@@ -2,8 +2,8 @@
 
 const Announcement = () => {
     return (
-        <div>
-            
+        <div className=" text-center bg-black font-bold text-white w-full p-3">
+            FOR THAT SPECIAL SOMEONE
         </div>
     )
 }

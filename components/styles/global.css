@@ -1,13 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
- 
-
-
-
-
-
-
-
 
 
 
@@ -62,7 +53,7 @@
   width: 34px;
   min-width: 34px;
   height: 33.33px;
-  
+  background-image: url('../public/customer.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -135,18 +126,18 @@ position: relative;
 .chat__bubble {
   position: fixed;
   width: 3.5em;
-  bottom: 2.5em;
+  bottom: 6.5em;
   right: 1.7em;
   cursor: pointer;
 }
 .online {
   position: fixed;
-  bottom: 6.4em;
+  bottom: 10.4em;
   right: 5em;
 }
-.onlineTwo {
+.online-two {
   position: fixed;
-  bottom:7.5em;
+  bottom:11.5em;
   right: 2em;
 }
 
@@ -273,50 +264,3 @@ position: relative;
   display: hidden;
 }
 /*# sourceMappingURL=chatbot.css.map */
-/*# sourceMappingURL=chatbot.css.map */
- .payment-banner {
-  background-color: #5b32f6; 
-  padding: 8px 20px; 
-  color: #fff; 
-  text-align: center; 
-  font-size: 14px; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-}
-.logop {
-  height: 20px; 
-  margin-left: 8px;
-}
-  
-  
-.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-  }
-  
-.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-  }
-  
-.example button:hover {
-    background: #0b7dda;
-  }
-  
-.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
