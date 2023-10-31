@@ -4,6 +4,8 @@ import { formatter} from '../utils/helpers'
 import ProductOptions from "./ProductOptions"
 import { AiOutlineEye, AiFillCheckCircle } from 'react-icons/ai';
 import { FaStarHalf, FaStar } from 'react-icons/fa';
+import styles from '../components/styles/styles.module.css'
+
 
 
 import { cartContext } from "../context/shopContext"
@@ -60,10 +62,10 @@ const ProductForm = ({product}) => {
             <div className='flex justify-evenly mb-3 cursor-pointer hover:opacity-60'>
                     <a href="#review">
                     < FaStar className={Styles.amzStar}/>
-      < FaStar className={Styles.amzStar}/>
-      < FaStar className={Styles.amzStar}/>
-      < FaStar className={Styles.amzStar}/>
-      <FaStarHalf className={Styles.amzStar}/>                    
+      < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      <FaStarHalf className={styles.amzStar}/>                    
                     <p className=" font-bold">Rated 4.5 </p>
                     </a>
                 </div>
@@ -101,7 +103,7 @@ const ProductForm = ({product}) => {
 
             }} 
             className="mt-3 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b]"> Get Mine Now  👉</button>
-            <div className='mt-6 flex justify-evenly'>
+            <div className='mt-6 flex justify-center gap-2'>
                         <img className=' w-36' src="/trust.jpg" alt="" />
                         <img className='w-36' src="/safecheck.jpg" alt="" />
                     </div>
