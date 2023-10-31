@@ -96,16 +96,24 @@ const ProductForm = ({product}) => {
     </div>
     
 </div>
-
+<div className='flex justify-center mt-3  cursor-pointer hover:opacity-60'>
+                    <a className="flex items-center"href="#review">
+                    < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      <FaStarHalf className={styles.amzStar}/>                    
+                    <p>( Rated 4.5 )</p>
+                    </a>
+                </div>
             <button
             onClick={() => {
                 addToCart(selectedVariant)
 
             }} 
-            className="mt-3 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b]"> Get Mine Now  👉</button>
-            <div className='mt-6 flex justify-center gap-4'>
+            className="mt-2 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b]"> Get Mine Now  👉</button>
+            <div className='mt-2 mb-3 flex justify-center '>
                         <img className=' w-36' src="/trust.jpg" alt="" />
-                        <img className='w-36' src="/safecheck.jpg" alt="" />
                     </div>
             
             

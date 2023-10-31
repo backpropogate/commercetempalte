@@ -5,6 +5,7 @@ import MiniCart from './miniCard'
 import React, { useState } from 'react';
 import Marquee from "react-fast-marquee";
 import { FaStarHalf, FaStar } from 'react-icons/fa';
+import styles from '../components/styles/styles.module.css'
 
 
 
@@ -52,11 +53,11 @@ export default function Nav() {
     </svg>
 </div>
 <Marquee gradient="false" gradientColor='[0,0,0]' className='overflow-hidden text-xs text-white p-3 bg-black' play= 'false'>
-      < FaStar className='amz-star'/>
-      < FaStar className='amz-star'/>
-      < FaStar className='amz-star'/>
-      < FaStar className='amz-star'/>
-      <FaStarHalf className='amz-star'/>
+      < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      < FaStar className={styles.amzStar}/>
+      <FaStarHalf className={styles.amzStar}/>
    <p>Amazing customer service!</p>
 </Marquee>
         </header>
