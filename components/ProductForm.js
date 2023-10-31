@@ -54,8 +54,8 @@ const ProductForm = ({product}) => {
         })
     }
     return (
-        <div className="rounded-2xl p-4 shadow-md flex flex-col w-full md:w-1/3">
-            <div className='flex justify-evenly gap-3 mb-3 cursor-pointer hover:opacity-60'>
+        <div className=" p-2 shadow-md flex flex-col w-full md:w-1/3">
+            <div className='flex justify-evenly mb-3 cursor-pointer hover:opacity-60'>
                     <a href="#review"><img className=" h-6" src="/stars 1.png" alt="" />
                     
                     <p className=" font-bold">Rated 4.5 </p>
