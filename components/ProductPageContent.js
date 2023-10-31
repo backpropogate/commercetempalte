@@ -9,6 +9,7 @@ import OurStory from './OurStory'
 import Chatbot from './Chatbot'
 import Reviews from './Reviews'
 import Wordforit from './Wordforit'
+import VideoSection from './VideoSection'
 
 const ProductPageContent = ( { product }) => {
 
@@ -51,6 +52,7 @@ const ProductPageContent = ( { product }) => {
         </div>
         
         <div className='m-5' dangerouslySetInnerHTML={{ __html: product.descriptionHtml }} />
+        <VideoSection/>
         <OurStory/>
         
         <Reviews/>
