@@ -59,14 +59,14 @@ const ProductForm = ({product}) => {
     }
     return (
         <div className=" p-2 shadow-md flex flex-col w-full md:w-1/3">
-            <div className='flex justify-evenly mb-3 cursor-pointer hover:opacity-60'>
-                    <a href="#review">
+            <div className='flex mb-3 cursor-pointer hover:opacity-60'>
+                    <a className="flex items-center"href="#review">
                     < FaStar className={styles.amzStar}/>
       < FaStar className={styles.amzStar}/>
       < FaStar className={styles.amzStar}/>
       < FaStar className={styles.amzStar}/>
       <FaStarHalf className={styles.amzStar}/>                    
-                    <p className=" font-bold">Rated 4.5 </p>
+                    <p>( Rated 4.5 )</p>
                     </a>
                 </div>
                 <div className="flex my-2">
@@ -103,7 +103,7 @@ const ProductForm = ({product}) => {
 
             }} 
             className="mt-3 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b]"> Get Mine Now  👉</button>
-            <div className='mt-6 flex justify-center gap-2'>
+            <div className='mt-6 flex justify-center gap-4'>
                         <img className=' w-36' src="/trust.jpg" alt="" />
                         <img className='w-36' src="/safecheck.jpg" alt="" />
                     </div>
