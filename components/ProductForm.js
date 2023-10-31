@@ -3,6 +3,8 @@ import { useState, useContext} from "react"
 import { formatter} from '../utils/helpers'
 import ProductOptions from "./ProductOptions"
 import { AiOutlineEye, AiFillCheckCircle } from 'react-icons/ai';
+import { FaStarHalf, FaStar } from 'react-icons/fa';
+
 
 import { cartContext } from "../context/shopContext"
 
@@ -56,8 +58,12 @@ const ProductForm = ({product}) => {
     return (
         <div className=" p-2 shadow-md flex flex-col w-full md:w-1/3">
             <div className='flex justify-evenly mb-3 cursor-pointer hover:opacity-60'>
-                    <a href="#review"><img className=" h-6" src="/stars 1.png" alt="" />
-                    
+                    <a href="#review">
+                    < FaStar className={Styles.amzStar}/>
+      < FaStar className={Styles.amzStar}/>
+      < FaStar className={Styles.amzStar}/>
+      < FaStar className={Styles.amzStar}/>
+      <FaStarHalf className={Styles.amzStar}/>                    
                     <p className=" font-bold">Rated 4.5 </p>
                     </a>
                 </div>
