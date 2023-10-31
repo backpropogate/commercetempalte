@@ -55,7 +55,7 @@ const ProductForm = ({product}) => {
     }
     return (
         <div className="rounded-2xl p-4 shadow-md flex flex-col w-full md:w-1/3">
-            <div className='flex gap-3 mb-3 cursor-pointer hover:opacity-60'>
+            <div className='flex justify-evenly gap-3 mb-3 cursor-pointer hover:opacity-60'>
                     <a href="#review"><img className=" h-6" src="/stars 1.png" alt="" />
                     
                     <p className=" font-bold">Rated 4.5 </p>
@@ -95,7 +95,7 @@ const ProductForm = ({product}) => {
 
             }} 
             className="mt-3 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b]"> Get Mine Now  👉</button>
-            <div className='mt-6 flex gap-6'>
+            <div className='mt-6 flex justify-evenly'>
                         <img className=' w-36' src="/trust.jpg" alt="" />
                         <img className='w-36' src="/safecheck.jpg" alt="" />
                     </div>
