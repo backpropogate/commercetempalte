@@ -62,8 +62,8 @@ const ProductForm = ({product}) => {
                     </a>
                 </div>
                 <div className="flex my-2">
-                <span className="new-arrival-badge bg-yellow-300 text-[#29bd47]gray-900 px-2.5 py-1 rounded-md text-[#29bd47]sm font-bold inline-block mb-2.5 max-w-max">New Arrival</span>
-<span className="selling-fast-badge bg-gray-900 text-yellow-300 px-2.5 py-1 rounded-md text-[#29bd47]sm font-bold inline-block mb-2.5 ml-1.5 max-w-max">🔥 Selling Fast</span>
+                <span className=" text-sm new-arrival-badge bg-yellow-300 text-[#29bd47]gray-900 px-2.5 py-1 rounded-md text-[#29bd47]sm font-bold inline-block mb-2.5 max-w-max">New Arrival</span>
+<span className="selling-fast-badge text-sm bg-gray-900 text-yellow-300 px-2.5 py-1 rounded-md text-[#29bd47]sm font-bold inline-block mb-2.5 ml-1.5 max-w-max">🔥 Selling Fast</span>
 </div>
 
             <h2 className="text-[#29bd47]2xl font-bold">{product.title}</h2>
