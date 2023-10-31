@@ -61,7 +61,7 @@ const ProductForm = ({product}) => {
         <div className=" p-2 shadow-md flex flex-col w-full md:w-1/3">
             <div className='flex justify-evenly mb-3 cursor-pointer hover:opacity-60'>
                     <a href="#review">
-                    < FaStar className={Styles.amzStar}/>
+                    < FaStar className={styles.amzStar}/>
       < FaStar className={styles.amzStar}/>
       < FaStar className={styles.amzStar}/>
       < FaStar className={styles.amzStar}/>
