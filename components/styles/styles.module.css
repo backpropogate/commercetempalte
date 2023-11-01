@@ -129,6 +129,16 @@ position: relative;
 .default-nav {
   z-index: -11;
 }
+.summaryCaret::before {
+  content: "";
+  display: block;
+  width: 20px; /* Adjust as needed */
+  height: 1px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 
 
