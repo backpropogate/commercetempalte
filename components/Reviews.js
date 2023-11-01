@@ -40,7 +40,7 @@ const Reviews = () => {
             </div>
           </div>
           <div className=' mb-4'>
-            <div className='flex gap-3 items-center'><img className=' w-6 rounded-lg' src="/customer.jpg" alt="" /> Antwon C.</div>
+            <div className='flex gap-3 items-center'><img className=' w-6 rounded-lg' src="/customer.jpg" alt="review" /> Antwon C.</div>
             <div className='flex gap-2 items-center'>
             <a className="flex ">
                     < FaStar className={styles.amzStar}/>
