@@ -5,6 +5,8 @@ import ProductOptions from "./ProductOptions"
 import { AiOutlineEye, AiFillCheckCircle } from 'react-icons/ai';
 import { FaStarHalf, FaStar } from 'react-icons/fa';
 import styles from '../components/styles/styles.module.css'
+import Image from 'next/image'
+
 
 
 
@@ -112,9 +114,14 @@ const ProductForm = ({product}) => {
 
             }} 
             className=" inline-block mt-2 bg-[#29bd47] rounded-lg text-white px-2 py-3 hover:bg-gray-800 font-bold  border-b-8 border-[#229d3b] hover:border-black hover:border-b-4"> Get Mine Now  👉</button>
-            <div className='mt-2 mb-3 flex justify-center '>
-                        <img className=' w-36' src="/trust.jpg" alt="" />
-                    </div>
+            <div className='mt-2 mb-3 flex justify-center'>
+  <Image
+    src="/trust.jpg"
+    alt="Trust Badges" // Always add an alt attribute for accessibility
+    width={144} // width in pixels; adjust based on the aspect ratio of your image
+    height={16} // height in pixels; in this case, you had the class w-36
+  />
+</div>
             
             
         </div>

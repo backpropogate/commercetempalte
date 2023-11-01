@@ -27,7 +27,13 @@ export default function Nav() {
                 <Link href="/" passHref>
                     <a className="cursor-pointer">
                         <span className="text-lg pt-1 font-bold flex justify-center">
-                           <img className=' w-16 sm:w-32' src="/sentimbox.png" alt="" />
+                        <Image
+        src="/sentimbox.png"
+        alt="SentimBox Logo"
+        width={64} // width in pixels
+        height={64} // height in pixels; adjust based on your image's aspect ratio
+        className="sm:w-32" // This will ensure it enlarges on larger screens
+      />
                         </span>
                     </a>
                 </Link>
